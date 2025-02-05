@@ -1,0 +1,58 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# edx.capstone.movielens.data
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of `edx.capstone.movielens.data`  is to provide the following datasets derived from the  [10M version of the MovieLens Dataset](http://grouplens.org/datasets/movielens/10m/) to use in the _**MovieLens**_ project of the [edX HarvardX PH125.9x Data Science Capstone Course](https://learning.edx.org/course/course-v1:HarvardX+PH125.9x+3T2024/home) for building a _Movie Recommendation System_ according to the course requirements:
+* **edx:** use it to develop and train your algorithms;
+* **final_holdout_test:** As per the course instructions, use it exclusively to evaluate the _**RMSE**_ of your final algorithm.
+
+
+## Installation
+
+You can install the development version of edx.capstone.movielens.data from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("AzKurban-edX-DS/edx.capstone.movielens.data")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(edx.capstone.movielens.data)
+## basic example code
+```
+
+What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+
+```{r cars}
+summary(cars)
+```
+
+You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
+
+You can also embed plots, for example:
+
+```{r pressure, echo = FALSE}
+plot(pressure)
+```
+
+In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
