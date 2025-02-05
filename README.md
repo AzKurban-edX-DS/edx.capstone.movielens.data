@@ -1,6 +1,6 @@
 # edx.capstone.movielens.data
 
-Data package for edx Capstone MovieLens project.
+Data package for the `MovieLens` project of the _**edX HarvardX PH125.9x Data Science: Capstone**_ course.
 
 ## Details
 
