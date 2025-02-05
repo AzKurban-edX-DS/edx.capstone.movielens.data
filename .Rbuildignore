@@ -1,3 +1,4 @@
 ^edx\.capstone\.movielens\.data\.Rproj$
 ^\.Rproj\.user$
 ^data-raw$
+^\.github$

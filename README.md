@@ -8,3 +8,7 @@ This package provides two datasets derived from the [10M version of the MovieLen
 
 * **edx:** we use it to develop and train our algorithms;
 * **final_holdout_test:** According to the course instructions, we use it exclusively to evaluate the _**RMSE**_ of our final algorithm.
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/AzKurban-edX-DS/edx.capstone.movielens.data/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/AzKurban-edX-DS/edx.capstone.movielens.data/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
