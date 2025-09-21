@@ -4,14 +4,14 @@
 # edx.capstone.movielens.data
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
 The goal of `edx.capstone.movielens.data` is to provide the following
 datasets derived from the [10M version of the MovieLens
 Dataset](http://grouplens.org/datasets/movielens/10m/) to use in the
 ***MovieLens*** project of the [edX HarvardX PH125.9x Data Science
-Capstone
-Course](https://learning.edx.org/course/course-v1:HarvardX+PH125.9x+3T2024/home)
+Capstone Course](https://pll.harvard.edu/course/data-science-capstone)
 for building a *Movie Recommendation System* according to the course
 requirements:
 
@@ -21,8 +21,8 @@ requirements:
 
 ## Installation
 
-You can install the development version of edx.capstone.movielens.data
-from [GitHub](https://github.com/) with:
+The development version of the package can be installed from *GitHub*
+using the `R` programming language with the following line of code:
 
 ``` r
 # install.packages("pak")
@@ -31,8 +31,8 @@ pak::pak("AzKurban-edX-DS/edx.capstone.movielens.data")
 
 ## Example
 
-This is a basic example that shows you how to get an idea of the
-structure of the datasets included in the package:
+Below is a simple example showing how to get an idea of the structure of
+the datasets included in a package:
 
 ``` r
 library(edx.capstone.movielens.data)
