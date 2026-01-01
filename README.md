@@ -19,6 +19,9 @@ requirements:
 - **final_holdout_test:** according to the requirements of the course,
   use it exclusively to evaluate the ***RMSE*** of your final algorithm.
 
+The main `R` script that prepares the necessary datasets is located in
+the file [init-movielens-data.R](data-raw/init-movielens-data.R)
+
 ## Installation
 
 The development version of the package can be installed from *GitHub*
