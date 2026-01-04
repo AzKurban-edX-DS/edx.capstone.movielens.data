@@ -11,11 +11,10 @@ The goal of `edx.capstone.movielens.data` is to provide the following
 datasets derived from the [10M version of the MovieLens
 Dataset](http://grouplens.org/datasets/movielens/10m/) to use in the
 [***Capstone MovieLens***
-Project](https://github.com/AzKurban-edX-DS/Capstone-MovieLens) of the
-[edX HarvardX PH125.9x Data Science Capstone
-Course](https://pll.harvard.edu/course/data-science-capstone) for
-building a *Movie Recommendation System* according to the course
-requirements:
+Project](https://github.com/AzKurban-edX-DS/Capstone-MovieLens) as part
+of the [edX HarvardX PH125.9x Data Science Capstone
+Course](https://pll.harvard.edu/course/data-science-capstone) to build a
+*Movie Recommendation System* according to the course requirements:
 
 - **edx:** use it to develop and train your algorithms;
 - **final_holdout_test:** according to the requirements of the course,
